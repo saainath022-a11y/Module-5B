@@ -16,6 +16,16 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 Add code here
 
+import numpy as np
+l1=eval(input())
+l2=eval(input())
+x=np.array(l1)
+y=np.array(l2)
+print(np.where(x>y))
+print(np.where(x == y))
 ## Output
+<img width="1133" height="241" alt="mod 5 2" src="https://github.com/user-attachments/assets/7d8f6050-8a5e-48d1-a873-3bcc0f082d07" />
 
 ## Result
+Successfully wrote a Python program using NumPy that finds the indices where elements in array x are greater than or equal to their corresponding elements in array y.
+
